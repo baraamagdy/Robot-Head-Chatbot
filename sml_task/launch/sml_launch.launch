@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="sml_task" type="prompter.py" name="prompter_node" output="screen" />
+  <node pkg="sml_task" type="Chatbot.py" name="chatbot_node" output="screen" />
+</launch>
